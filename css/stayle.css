@@ -1,0 +1,214 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #ffffff;
+    }
+    
+    .process-container {
+      max-width: 800px;
+      margin: 50px auto;
+      padding: 20px;
+      border-bottom: 3px solid;
+    }
+    
+    .process-title {
+      font-size: 32px;
+      color: #2a2a2a;
+      margin-bottom: 10px;
+      border-bottom: 3px solid;
+    }
+    
+    .process-subtitle {
+      font-size: 16px;
+      color: #707070;
+      margin-bottom: 30px;
+    }
+    
+    .step {
+      background-color: #f9f9f9;
+      border-radius: 12px;
+      box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+      margin-bottom: 15px;
+      overflow: hidden;
+      transition: all 0.3s ease;
+    }
+    
+    .step.active {
+      background-color: #9aff35;
+    }
+    
+    .step-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 15px;
+    }
+    
+    .step-number {
+      font-size: 20px;
+      font-weight: bold;
+      color: #57ff5d;
+    }
+    
+    .step-title {
+      font-size: 18px;
+      color: #2a2a2a;
+      flex-grow: 1;
+      margin-left: 10px;
+    }
+    
+    .toggle-icon {
+      font-size: 18px;
+      font-weight: bold;
+      color: #707070;
+    }
+    
+    .step-description {
+      font-size: 16px;
+      color: #505050;
+      padding: 15px;
+      border-top: 1px solid #e0e0e0;
+      display: none;
+    }
+    
+    .step.active .step-description {
+      display: block;
+    }
+    
+    .step.active .toggle-icon {
+      color: #5ef463;
+    }
+    
+    
+    .team-container {
+      max-width: 1200px;
+      margin: 50px auto;
+      padding: 20px;
+      text-align: center;
+    }
+    
+    .team-title {
+      font-size: 36px;
+      color: #2a2a2a;
+      margin-bottom: 10px;
+    }
+    
+    .team-subtitle {
+      font-size: 18px;
+      color: #707070;
+      margin-bottom: 30px;
+    }
+    
+    .team-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 20px;
+    }
+    
+    .team-card {
+      background-color: #fff;
+      border-radius: 15px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      padding: 20px;
+      text-align: center;
+      position: relative;
+    }
+    
+    .profile-pic {
+      width: 80px;
+      height: 80px;
+      border-radius: 50%;
+      margin: 0 auto 15px;
+      background-color: #d6f9b3;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #fff;
+      font-size: 28px;
+      font-weight: bold;
+    }
+    
+    .john-smith {
+      background-image: url('john-smith.jpg'); /* Replace with your image URLs */
+      background-size: cover;
+    }
+    
+    .jane-doe {
+      background-image: url('jane-doe.jpg');
+      background-size: cover;
+    }
+    
+    .michael-brown {
+      background-image: url('michael-brown.jpg');
+      background-size: cover;
+    }
+    
+    .emily-johnson {
+      background-image: url('emily-johnson.jpg');
+      background-size: cover;
+    }
+    
+    .brian-williams {
+      background-image: url('brian-williams.jpg');
+      background-size: cover;
+    }
+    
+    .sarah-kim {
+      background-image: url('sarah-kim.jpg');
+      background-size: cover;
+    }
+    
+    .name {
+      font-size: 20px;
+      font-weight: bold;
+      color: #2a2a2a;
+      margin-bottom: 5px;
+    }
+    
+    .role {
+      font-size: 16px;
+      color: #4caf50;
+      margin-bottom: 10px;
+    }
+    
+    .description {
+      font-size: 14px;
+      color: #707070;
+      margin-bottom: 15px;
+    }
+    
+    .linkedin-icon {
+      position: absolute;
+      top: 20px;
+      right: 20px;
+      font-size: 14px;
+      background-color: #4caf50;
+      color: #fff;
+      border-radius: 50%;
+      padding: 5px 8px;
+      font-weight: bold;
+    }
+    
+    .see-all-button {
+      background-color: #000;
+      color: #fff;
+      padding: 10px 20px;
+      border-radius: 25px;
+      font-size: 16px;
+      margin-top: 20px;
+      border: none;
+      cursor: pointer;
+    }
+    
+    .see-all-button:hover {
+      background-color: #cac6c6;
+      color: #000;
+    }
+    /* ura boldimaa 2 soat kett */
+    
